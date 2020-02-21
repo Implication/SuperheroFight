@@ -1,0 +1,22 @@
+{
+  "name": "superhero-fight",
+  "version": "1.0.0",
+  "description": "Website that pits the greatest superheroes known to man against each other based on powerstats provided by the Superhero API, better stats means better hero",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm-watch"
+  },
+  "author": "Trajon Felton",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "util": "^0.12.1",
+    "watch": "^1.0.2"
+  }
+}

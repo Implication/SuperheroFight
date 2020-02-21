@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Public/css/style.css">
+    <link rel="stylesheet" href="Public/css/bootstrap.min.css">
+    <title>Superhero Fight</title>
+</head>
+<body>
+  <div class="jumbotron">
+    <h1>Superhero Fight</h1>
+    <p>Pit of the world's greatest heroes</p>
+  </div>
+  <form method="POST" action='/'>
+  <div class="container mt-5">
+    <div class="row">
+    <section class="col">
+      <div class="form-group">
+          <input 
+          autocomplete="off"
+          type="text"
+          id="search1"
+          name="firstHero"
+          class="form-control form-control-lg mx-auto"
+          placeholder="Enter a superhero name...">
+          <div id="list1"></div>
+    </section>
+    <section class="col">
+      <div class="form-group">
+          <input 
+          autocomplete="off"
+          type="text"
+          id="search2"
+          name="secondHero"
+          class="form-control form-control-lg mx-auto"
+          placeholder="Enter a superhero name...">
+          <div id="list2"></div>
+    </section>
+  </div>
+  </div>
+  <div class="mx-auto" style="width: 200px;">
+  <button class="btm btn-outline-info btn-lg rounded" style="width: 200px">Fight</button>
+  </form>
+  </div>
+        <script src="test.js"></script>
+        <script src="js/homePage.js"></script>
+</body>
+</html>1
