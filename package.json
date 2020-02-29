@@ -4,8 +4,9 @@
   "description": "Website that pits the greatest superheroes known to man against each other based on powerstats provided by the Superhero API, better stats means better hero",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "npm-watch"
+    "start": "node server.js",
+    "watch": "npm-watch",
+    "devStart": "nodemon server.js"
   },
   "author": "Trajon Felton",
   "license": "ISC",
@@ -18,5 +19,8 @@
     "request": "^2.88.0",
     "util": "^0.12.1",
     "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
