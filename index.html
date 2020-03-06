@@ -24,7 +24,10 @@
           id="search1"
           name="firstHero"
           class="form-control form-control-lg mx-auto"
-          placeholder="Enter a superhero name...">
+          pattern="\d{1,3} [a-zA-Z0-9 -]*"
+          placeholder="Enter a superhero name..."
+          title="Please click on one of the superheroes in the list below, use a letter from a-z to get different ones!"
+          required>
           <div id="list1"></div>
     </section>
     <section class="col">
@@ -35,7 +38,10 @@
           id="search2"
           name="secondHero"
           class="form-control form-control-lg mx-auto"
-          placeholder="Enter a superhero name...">
+          placeholder="Enter a superhero name..."
+          pattern="\d{1,3} [a-zA-Z0-9 -]*"
+          title="Please click on one of the superheroes in the list below, use a letter from a-z to get different ones!"
+          required>
           <div id="list2"></div>
     </section>
   </div>
