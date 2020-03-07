@@ -73,15 +73,12 @@ app.post("/", (req, res) => {
 
 app.get("/fight", (req, res) => {
   for (const data in firstHeroData) {
-    console.log(firstHeroData[data]);
     if (firstHeroData[data] === "null") {
       firstHeroData[data] = "N/A";
     }
   }
   for (const data in secondHeroData) {
-    console.log(secondHeroData[data]);
     if (secondHeroData[data] === "null") {
-      console.log("?");
       secondHeroData[data] = "N/A";
     }
   }
